@@ -582,7 +582,7 @@ const AIAnalysis: React.FC<AIAnalysisProps> = ({
                     <li>网络连接问题</li>
                   </ol>
                   <div style={{ backgroundColor: '#f6ffed', padding: '8px', borderRadius: '4px', marginTop: '10px' }}>
-                    <b>提示：</b> 系统使用固定的GitHub Token: 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
+                    <b>提示：</b> 系统需要GitHub Token，请在安全环境下配置，不要在代码中硬编码Token。
                   </div>
                 </p>
               )}
